@@ -11,5 +11,6 @@ var objectName{
     some stuff happens here
   }
 }
+```
 
 document object model -- a way for javascript to interact with elements on the page.  elements kind of like a family tree. can create, remove, change attributes of elements.   need  to locate elements to interact with them.  use variables to store locations of elements so you can interact with them.
