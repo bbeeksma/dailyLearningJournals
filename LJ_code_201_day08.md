@@ -53,3 +53,4 @@ RequestBin lets you submit your information to an actual server for testing.
 -if you satisfy event listener requirements for more than one event listener at oncee, all of the ones you satify will go off.
 -events all return specific information about the thing that happened in an event object.  Target is important to find what the event happened to.
 -event.preventDefault(); used in event handler to stop default behavior from hapening.
+-watch types. value comes back as a string
