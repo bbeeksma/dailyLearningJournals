@@ -2,22 +2,22 @@
 
 
 ### Form Controls
--Text Field:
+*Text Field:
 `<input type = 'text' name = 'textField'/>`
--Text Area:
+*Text Area:
 `<textarea name = rows = '8' cols = '20'>`
--Password Field
+*Password Field
 `<input type = 'password' name = 'passwordField'/>`
--Radio Buttons:
+*Radio Buttons:
 `<input type = 'radio' name = 'radioButton' value = '1'/> Yes`
 `<input type = 'radio' name = 'radioButton' value = '0'/> No`
--Radio buttons are grouped by their name. Can only select one for each name.
--checkbox:
+*Radio buttons are grouped by their name. Can only select one for each name.
+*checkbox:
 `<input type = 'checkbox' name = 'weather' value = 'rain'/> rain`
 `<input type = 'checkbox' name = 'weather' value = 'sun'/> sun`
 `<input type = 'checkbox' name = 'weather' value = 'wind'/> wind`
--Submit Button: `<input type = 'submit' value = 'saveThisStuff'`
--Dropdown List: requires options.  options specify the options user can select from the list.  Value attribute of the option is what gets sent.  Can also use selected attribute to set what is selected when the page loads, else first is selected.  optGroup can group options together.  multiple attribute allows users to select multiple options.  size attribute lets you decide how many options you want to show at once.
+*Submit Button: `<input type = 'submit' value = 'saveThisStuff'`
+*Dropdown List: requires options.  options specify the options user can select from the list.  Value attribute of the option is what gets sent.  Can also use selected attribute to set what is selected when the page loads, else first is selected.  optGroup can group options together.  multiple attribute allows users to select multiple options.  size attribute lets you decide how many options you want to show at once.
 ```
 ```
 -File Input Box: lets you like text field with a browse button.
