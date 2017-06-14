@@ -1,7 +1,7 @@
 # Code 201, day
 
 
-### Forms
+### Form Controls
 -Text Field:
 `<input type = 'text' name = 'textField'/>`
 -Text Area:
@@ -26,8 +26,22 @@
 `<form action = 'someUrl' method = 'POST'>`
 RequestBin lets you submit your information to an actual server for testing.
 -button: allows control over how buttons appear
--label: user can click on label to interact with a form control
+-label: user can click on label to interact with a form control.  if it's not a wrapped label you use the attribute for to reference the **id** of the form element it is supposed to connect to.
 -Image Button: submit button only with an image.
 -fieldset element lets you group form controls together.  legend element comes right after the <fieldset> tag and has a caption.
 -html 5 has added some things like form validation and different input types.
 -placeholder attribute lets you put in a placeholder value in some input fields.
+
+### Form/Table/List CSS styling
+-Similar to styling anything else. pick the element you want and slap some styles on it.
+-forms come with a lot of defaults so often need to do 'css Resets' to get rid of the default stuff.  Like border:0; margin:0; padding:0;
+-just like other css watch how element is displaying.  You can't do some things to inline elements that you can do to block elements.
+-first-child, last-child ways to identify specific elements.
+-you can give list-style-type:  styles to list elements.
+-lists come with default padding, default vertical-align and default list-style-position.  list-style-position: outside; is default.  list-style-position: inside; puts the bullets back into the <li> elements. vertical-align needs to be on input as well as the form element
+-to nest lists don't put the list in the list element. put it inside of one of the list item elements.
+-text area can be resized by default.
+-you can target specific input types by using `input[type='inputtype']`
+-dropdowns are hard to style. often best to just leave as default because of handling on different devices.
+-submit button styling can be hard. button element gives more control.
+-don't lose your labels so users know what the inputs are for.
