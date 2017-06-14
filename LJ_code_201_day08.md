@@ -45,3 +45,11 @@ RequestBin lets you submit your information to an actual server for testing.
 -dropdowns are hard to style. often best to just leave as default because of handling on different devices.
 -submit button styling can be hard. button element gives more control.
 -don't lose your labels so users know what the inputs are for.
+
+### javascript events
+-good list of event types on 246 of javascript book.
+-use addEventListener because you can add as many event listener items if you use onLoad or onResize for example, you can only watch one event because you replace the property if you make a second one of these old and busteds
+-can add evenListener for any object.
+-if you satisfy event listener requirements for more than one event listener at oncee, all of the ones you satify will go off.
+-events all return specific information about the thing that happened in an event object.  Target is important to find what the event happened to.
+-event.preventDefault(); used in event handler to stop default behavior from hapening.
