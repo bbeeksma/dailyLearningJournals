@@ -22,3 +22,13 @@ SEO = Search engine optimization.  Optimize content so google finds/likes your p
 schema.org
 
 https://developers.google.com/search/docs/guides/mark-up-content
+
+schema information also very useful for making sure you show up in things like google shopping.  Keep schema up to date makes sure correct info shows up in searches.
+
+### Analytics
+
+Analytics are for collecting information about your users.  More data is more gooder. You can use the data to make design decisions, like when to put up new content.
+
+### domain names/hosting
+
+domain just a name that is used to look up a specific IP address.  Hosting is just where your files live.
