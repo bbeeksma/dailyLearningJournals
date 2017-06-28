@@ -1,0 +1,3 @@
+# Code 201, day 17
+
+Did not see as much progress as I had hoped to today.  Getting the DOM elements created for the room info pop out took quite a bit longer than I anticipated.  Did a lot of diving into object properties to get other object properties.  Seems like there should be a cleaner way to do it than what we ended up with, but it is working, so small victories.  After class I found that Chrome's security is not your freind when you are trying to access a local object from another one.  "Blocked a frame with origin "null" from accessing a cross-origin frame"  I think it might work when it is hosted, but not on local files... we'll see tomorrow after we review and merge my pull request.
